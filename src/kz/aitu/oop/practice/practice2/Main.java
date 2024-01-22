@@ -3,9 +3,10 @@ package kz.aitu.oop.practice.practice2;
 
 public class Main {
     public static void main(String[] args) {
+
         Locomotive locomotive = new Locomotive(70, "Electric");
-        PassengerCar passengerCar1 = new PassengerCar(40, 25);
-        PassengerCar passengerCar2 = new PassengerCar(45, 35);
+        PassengerCar passengerCar1 = new PassengerCar(40, 101);
+        PassengerCar passengerCar2 = new PassengerCar(45, 100);
 
 
         Train train = new Train();
